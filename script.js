@@ -1,9 +1,9 @@
 const imageList = [
-  "https://axele301.github.io/edukasi/img/jumbotron1.jpeg",
-  "https://axele301.github.io/edukasi/img/jumbotron2.jpeg",
-  "https://axele301.github.io/edukasi/img/jumbotron3.jpeg",
-  "https://axele301.github.io/edukasi/img/jumbotron4.jpeg",
-  "https://axele301.github.io/edukasi/img/jumbotron5.jpeg",
+  "https://axele201.github.io/edukasi/img/jumbotron1.jpeg",
+  "https://axele201.github.io/edukasi/img/jumbotron2.jpeg",
+  "https://axele201.github.io/edukasi/img/jumbotron3.jpeg",
+  "https://axele201.github.io/edukasi/img/jumbotron4.jpeg",
+  "https://axele201.github.io/edukasi/img/jumbotron5.jpeg",
   ];
 
   let index = 0;
