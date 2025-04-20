@@ -83,6 +83,9 @@ const imageList = [
   }
 
   window.onload = () => {
+  const dataTable = document.getElementById("dataTable");
+  if (dataTable) {
     bersihkanJatuhTempo();
-    setInterval(bersihkanJatuhTempo, 10000); // cek setiap 10 detik (opsional)
-  };
+    setInterval(bersihkanJatuhTempo, 10000); // opsional
+  }
+};
