@@ -24,7 +24,6 @@ const imageList = [
       const keterangan = row.cells[1].textContent;
       const jatuhTempoText = row.cells[2].textContent;
 
-      // Konversi "20 Maret 2025" ke format Date yang valid
       const tanggal = parseTanggalIndo(jatuhTempoText);
 
       if (tanggal && tanggal >= now) {
@@ -70,7 +69,6 @@ const imageList = [
     return null;
   }
 
-  // Format kembali ke string
   function formatTanggalIndo(date) {
     const bulanIndo = [
       "Januari", "Februari", "Maret", "April", "Mei", "Juni",
@@ -82,10 +80,7 @@ const imageList = [
     return `${d} ${m} ${y}`;
   }
 
-  window.onload = () => {
-  const dataTable = document.getElementById("dataTable");
-  if (dataTable) {
+ window.onload = () => {
     bersihkanJatuhTempo();
-    setInterval(bersihkanJatuhTempo, 10000); // opsional
-  }
-};
+    setInterval(bersihkanJatuhTempo, 10000);
+  };
